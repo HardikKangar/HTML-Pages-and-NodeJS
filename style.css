@@ -1,0 +1,48 @@
+/* This section sets basic styles for the entire document */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font family for the entire document */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f8f8f8; /* Sets background color */
+    color: #333; /* Sets text color */
+}
+
+/* This section styles the main content container */
+#pageContent {
+    max-width: 800px; /* Sets the maximum width of the content */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 20px; /* Adds padding around the content */
+    background-color: #fff; /* Sets background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
+/* This section styles header, main content area, and footer */
+header, main, footer {
+    margin-bottom: 20px; /* Adds space between header, main, and footer */
+}
+
+/* This section styles headings */
+h1, h2 {
+    color: #0066cc; /* Sets color for h1 and h2 headings */
+}
+
+/* This section styles the main content */
+main {
+    line-height: 1.6; /* Sets the line height for the main content */
+}
+
+/* This section styles the footer */
+footer {
+    display: flex; /* Makes the footer a flex container */
+    justify-content: space-between; /* Aligns content horizontally with space between */
+    background-color: #333; /* Sets background color */
+    color: #fff; /* Sets text color */
+    padding: 10px; /* Adds padding */
+}
+
+/* This section styles paragraphs inside the footer */
+footer p {
+    margin: 0; /* Removes margin from paragraphs inside the footer */
+}
+
+/* Add more CSS rules as needed for additional styling */
